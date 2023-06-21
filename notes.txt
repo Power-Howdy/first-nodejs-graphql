@@ -1,0 +1,31 @@
+npm init
+sudo npm install nodemon
+sudo npm install express 
+sudo npm install graphql
+
+sudo npm install lodash
+sudo npm install graphql-http
+
+==============================================================
+
+create list of endpoints used on the boards with the monday sandbox
+one text file for each boards
+or just a list on a monday board and the status indicates it's in the code and which files it is connected to
+
+DO NOT FORGET there is a monday VSC Extension that could make it easier
+connect to monday
+it lists out boards and columns
+it lists out id and just about anything else as an autocomplete!
+
+==============================================================
+sudo npm install @babel/cli @babel/core @babel/preset-env body-parser concurrently cors express graphql-http graphql  merge-graphql-schemas mongoose nodemon
+
+sudo npm i graphql-tools
+sudo npm i graphql-schema-merger
+graphql-http 
+==============================
+if someone gets an error while like "TypeError: graphqlHTTP is not a function"
+u can basically do 2 things
+1)const { graphqlHTTP } = require('express-graphql');
+2)const graphqlHTTP = require('express-graphql').graphqlHTTP;
+
